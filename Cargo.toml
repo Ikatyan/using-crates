@@ -1,0 +1,7 @@
+[package]
+name = "using_libraries"
+version = "0.1.0"
+authors = ["yoshiki <interestingyoshiki@gmail.com>"]
+
+[dependencies]
+bitflags = "1.0.3"
