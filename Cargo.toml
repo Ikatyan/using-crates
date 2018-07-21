@@ -5,3 +5,6 @@ authors = ["yoshiki <interestingyoshiki@gmail.com>"]
 
 [dependencies]
 bitflags = "1.0.3"
+serde = {version = "1.0.70", default-features = false, features = ["rc"]}
+serde_json = "1.0.24"
+serde_derive = "1.0.70"
