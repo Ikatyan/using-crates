@@ -2,7 +2,7 @@ extern crate rand;
 
 use rand::Rng;
 use rand::FromEntropy;
-use rand::rngs::{StdRng, SmallRng, EntropyRng, JitterRng, OsRng, ThreadRng};
+use rand::rngs::{StdRng, SmallRng, EntropyRng, JitterRng, OsRng};
 
 fn use_stdrng() {
     let mut std_rng = StdRng::from_entropy();
