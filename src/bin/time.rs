@@ -11,5 +11,5 @@ fn print_yyyymmdd_with_chrono() {
 
 fn main() {
     print_now();
-    print_now_with_chrono()
+    print_yyyymmdd_with_chrono()
 }
